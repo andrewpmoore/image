@@ -53,12 +53,12 @@ Image adjustColor(Image src,
     return src;
   }
 
-  contrast = contrast?.clamp(0, 1);
-  saturation = saturation?.clamp(0, 1);
-  brightness = brightness?.clamp(0, 1);
-  gamma = gamma?.clamp(0, 1000);
-  exposure = exposure?.clamp(0, 1000);
-  amount = amount?.clamp(0, 1000);
+  //contrast = contrast?.clamp(0, 1);
+  //saturation = saturation?.clamp(0, 1);
+  //brightness = brightness?.clamp(0, 1);
+  //gamma = gamma?.clamp(0, 1000);
+  //exposure = exposure?.clamp(0, 1000);
+  //amount = amount?.clamp(0, 1000);
 
   const DEG_TO_RAD = 0.0174532925;
   const avgLumR = 0.5;
